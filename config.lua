@@ -3,6 +3,8 @@ Config = {}
 
 Config.Paketler = {
 
+
+
   paket1 = {
     [1] = "weapon_pistol",
     [2] = "weapon_assaultrifle",
@@ -14,6 +16,7 @@ Config.Paketler = {
     [2] = "weapon_bat",
     [3] = "weapon_knuckle",
     [4] = "weapon_flashlight",
+    [5] = "bread",
   },
   paket3 = {
     [1] = "weapon_revolver",
@@ -23,3 +26,4 @@ Config.Paketler = {
   }
   
 }
+
