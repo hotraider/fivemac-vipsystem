@@ -1,0 +1,149 @@
+#container {
+    /* background-color: #00000049; */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/pw_maze_white.png);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 10px;
+}
+
+.wrapper-page {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+header h3 {
+    font-size: 2.5em;
+}
+
+header span {
+    color: #666;
+    display: inline-block;
+    padding: .5em;
+    -webkit-transition: .15s ease-in;
+    -moz-transition: .15s ease-in;
+    -ms-transition: .15s ease-in;
+}
+
+header span:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.50, 1.50);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+}
+
+.plan {
+    background: #ccc;
+    border: .09em solid #999;
+    width: 18em;
+    position: relative;
+    box-shadow: 0 0 1em .05em #666;
+    display: inline-block;
+    margin: 2em;
+    font-size: 1.2em;
+    -webkit-transition: .15s ease-in;
+    -moz-transition: .15s ease-in;
+    -ms-transition: .15s ease-in;
+}
+
+.plan:hover {
+    -webkit-transform: scale(1.05, 1.05) translateY(-.5em);
+    -moz-transform: scale(1.05, 1.05) translateY(-.5em);
+    -ms-transform: scale(1.05, 1.05) translateY(-.5em);
+    cursor: pointer;
+}
+
+.plan h1 {
+    background: #333;
+    display: block;
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    -moz-border-top-left-radius: .3em;
+    -moz-border-top-right-radius: .3em;
+    top: -.3em;
+    position: relative;
+    color: #dedede;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.plan h2 {
+    background: #29A6CF;
+    line-height: 2em;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    width: 7.8em;
+    left: -.35em;
+    margin-top: -.3em;
+    box-shadow: 0 0 .3em 1px #333;
+    color: #dedede;
+}
+
+.plan h2:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: .35em solid #2081A1;
+    border-left: .35em solid transparent;
+    position: absolute;
+    bottom: -.35em;
+    left: 0;
+}
+
+.plan h2:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: .35em solid #2081A1;
+    border-right: .35em solid transparent;
+    position: absolute;
+    bottom: -.35em;
+    right: 0;
+}
+
+.plan h3 {
+    font-weight: normal;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.plan h4 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    color: #666;
+}
+
+.plan ul {
+    width: 60%;
+    padding: 1em 0;
+    margin: auto;
+    list-style-position: outside;
+    font-size: 1em;
+    text-align: left;
+}
+
+.plan li {
+    margin-bottom: .3em;
+}
+
+.perUnit {
+    font-size: .5em;
+}
