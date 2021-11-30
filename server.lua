@@ -12,27 +12,34 @@ AddEventHandler('server:tick', function(type)
     if item > 0 then
 
 	if type == "paket1" then
-    player.addInventoryItem(Config.Paket1[1], 1)
-    player.addInventoryItem(Config.Paket1[2], 1)
-    player.addInventoryItem(Config.Paket1[3], 1)
-    player.addInventoryItem(Config.Paket1[4], 1)
+
+    for i=4,1,-1 do 
+        
+    player.addInventoryItem(Config.Paket1[i], 1)
+
     player.removeInventoryItem('doge', 1)
+    
+    end
+
     elseif type == "paket2" then
-    player.addInventoryItem(Config.Paket2[1], 1)
-    player.addInventoryItem(Config.Paket2[2], 1)
-    player.addInventoryItem(Config.Paket2[3], 1)
-    player.addInventoryItem(Config.Paket2[4], 1)
+        
+    for i=4,1,-1 do 
+
+    player.addInventoryItem(Config.Paket2[i], 1)
+
     player.removeInventoryItem('doge', 1)
+
+    end
+
     elseif type == "paket3" then
-    player.addInventoryItem(Config.Paket3[1], 1)
-    player.addInventoryItem(Config.Paket3[2], 1)
-    player.addInventoryItem(Config.Paket3[3], 1)
-    player.addInventoryItem(Config.Paket3[4], 1)
+
+    for i=4,1,-1 do 
+
+    player.addInventoryItem(Config.Paket3[i], 1)
+
     player.removeInventoryItem('doge', 1)
+    end 
     end
     end
     end)
 
-
-    
-    
